@@ -2498,10 +2498,10 @@
     "@chakra-ui/react-context" "2.1.0"
     "@chakra-ui/shared-utils" "2.0.5"
 
-"@chakra-ui/storybook-addon@^4.0.12":
-  version "4.0.16"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/storybook-addon/-/storybook-addon-4.0.16.tgz#6e2c1c6c92aa50eda6db412fd53cce5088e3e514"
-  integrity sha512-4+Mm9WHl+2lZ6BFTRV9xE+vT6Gxh0cvtScOw7idvhPru1vzTiJVsSpHoWANzQAs08DAzwulexjLghCMGnLKKhw==
+"@chakra-ui/storybook-addon@^5.0.0":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/storybook-addon/-/storybook-addon-5.0.1.tgz#ba4986accc0afe7e5dfe8e287fd2e2397cd82841"
+  integrity sha512-QZ9Ye46a3EuFks9oyI3r/ohqzvoWhv+ObPR6tHyFCgIQSlwFCap8849Ue/+r6UAEjmgfD+4pdtfqgu9Kv+LqjA==
 
 "@chakra-ui/styled-system@2.9.1":
   version "2.9.1"
@@ -8623,14 +8623,7 @@ create-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
-cross-fetch@^3.1.5:
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.8.tgz#0327eba65fd68a7d119f8fb2bf9334a1a7956f82"
-  integrity sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==
-  dependencies:
-    node-fetch "^2.6.12"
-
-cross-fetch@^3.1.8:
+cross-fetch@^3.1.5, cross-fetch@^3.1.8:
   version "3.1.8"
   resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.8.tgz#0327eba65fd68a7d119f8fb2bf9334a1a7956f82"
   integrity sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==
