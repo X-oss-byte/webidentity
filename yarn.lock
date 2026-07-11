@@ -3486,51 +3486,50 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.1.2.tgz#b7e9309ccce5a0a40ac482cb894f120dba2b357f"
   integrity sha512-ou3elfqG/hZsbmF4bxeJhPHIf3G2pm0ujc39hYEZrfVqt7Vk/Zji6CXc3W0pmYM8BW1g40U+akTl9DKZhFhInQ==
 
-"@formatjs/ecma402-abstract@1.11.4":
-  version "1.11.4"
-  resolved "https://registry.yarnpkg.com/@formatjs/ecma402-abstract/-/ecma402-abstract-1.11.4.tgz#b962dfc4ae84361f9f08fbce411b4e4340930eda"
-  integrity sha512-EBikYFp2JCdIfGEb5G9dyCkTGDmC57KSHhRQOC3aYxoPWVZvfWCDjZwkGYHN7Lis/fmuWl906bnNTJifDQ3sXw==
-  dependencies:
-    "@formatjs/intl-localematcher" "0.2.25"
-    tslib "^2.1.0"
+"@formatjs/bigdecimal@0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@formatjs/bigdecimal/-/bigdecimal-0.2.7.tgz#164256d9bd93766b792fc9c0b803cbae4fc37261"
+  integrity sha512-B4+XY/e4u5v261r3a37Kq2ax91gPZSKGyVpx8X5dygAggLlUz+6MeBpmAhaBFGB8WQ4JB1qD+QtKHk9aJkEb9Q==
 
-"@formatjs/ecma402-abstract@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@formatjs/ecma402-abstract/-/ecma402-abstract-1.7.1.tgz#1459a9dad654d5d5ec34765965b8e4f22ad6ff81"
-  integrity sha512-FjewVLB2DVEVCvvC7IMffzXVhysvi442i6ed0H7qcrT6xtUpO4vr0oZgpOmsv6D9I4Io0GVebIuySwteS/k3gg==
-  dependencies:
-    tslib "^2.1.0"
+"@formatjs/fast-memoize@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@formatjs/fast-memoize/-/fast-memoize-3.1.7.tgz#5f79b3756e4bcb5faee47b3a2f01216e1212c9e4"
+  integrity sha512-zXfhLpvA6T7+efdt9JLbBwZ00tT7NsBMDVnDu8rpHeNNv8KfRZAMo2gkG0k9lK/Nzc//3kJ9pImsfuJxk3KhUA==
 
-"@formatjs/intl-getcanonicallocales@1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-getcanonicallocales/-/intl-getcanonicallocales-1.9.2.tgz#5aab5f6ac2d923933538085eec20a19c393b6ebf"
-  integrity sha512-69WTStIJI2ikErOU1Il4NQKLVV8f2x6awr7+/dZz0uihuI7uQRcZtI6k/BBt4EtYaEl6w65YjUF93VuE015C0w==
-  dependencies:
-    tslib "^2.1.0"
+"@formatjs/intl-getcanonicallocales@3.2.11":
+  version "3.2.11"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-getcanonicallocales/-/intl-getcanonicallocales-3.2.11.tgz#bb284a387a8bef084ff2f1a176d4283d972d049c"
+  integrity sha512-3FX+dgs+n7IZ6LGewqKV+JhAN7PeknS17j2QH0Qq4yQ64QJCmd8ST5FIRRvVgM93T6L2sARpcSH1gNiVMgVy6w==
 
-"@formatjs/intl-locale@^2.4.14":
-  version "2.4.47"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-locale/-/intl-locale-2.4.47.tgz#7bf66960e55e7dfa77fcc7c02ee06aea29f92eb6"
-  integrity sha512-yEpjx6RgVVG3pPsxb/jydhnq/A02KmjMste5U/wWxscRK0sny8LPIoBwgkOQycRoMRLNlLemJaQB7VbHZJ9OVg==
+"@formatjs/intl-locale@^5.0.0":
+  version "5.3.10"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-locale/-/intl-locale-5.3.10.tgz#90ab5ddaf4b414822353f4823bede83904f21725"
+  integrity sha512-JAlo479jZagR6Ze7EI4HGcV8Fi0PYVvEYmsis7c5i7I9Wa5d1Cbo+ThvDikhkQi6Gt86fpGriDOiOQP8CT2WZA==
   dependencies:
-    "@formatjs/ecma402-abstract" "1.11.4"
-    "@formatjs/intl-getcanonicallocales" "1.9.2"
-    tslib "^2.1.0"
+    "@formatjs/intl-getcanonicallocales" "3.2.11"
+    "@formatjs/intl-supportedvaluesof" "2.3.9"
 
-"@formatjs/intl-localematcher@0.2.25":
-  version "0.2.25"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.2.25.tgz#60892fe1b271ec35ba07a2eb018a2dd7bca6ea3a"
-  integrity sha512-YmLcX70BxoSopLFdLr1Ds99NdlTI2oWoLbaUW2M406lxOIPzE1KQhRz2fPUkq34xVZQaihCoU29h0KK7An3bhA==
+"@formatjs/intl-localematcher@0.8.12":
+  version "0.8.12"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.8.12.tgz#52349fc1c9c44f199ee28657373e9a8f049b7d42"
+  integrity sha512-5H3r5ZJ2jZqHEv9K343lvHmeMDKMxssawAVD2H4J9xtu0ZXb6MlNxwLqdwBxJSHFU0C24KSZnffgmAi+59mK4A==
   dependencies:
-    tslib "^2.1.0"
+    "@formatjs/fast-memoize" "3.1.7"
 
-"@formatjs/intl-numberformat@^6.1.4":
-  version "6.2.10"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-numberformat/-/intl-numberformat-6.2.10.tgz#6180bbcbec5c694258241f3f8fe8b0fb02ce4045"
-  integrity sha512-b2pN56nxQ2JnYaT1ji8NYJbDv9rQmQ1BWHgyRJWIjKz6afYeeoVf/O7YIaDFawNOONgRrn5J1SFYtNdQzXJJkg==
+"@formatjs/intl-numberformat@^9.0.0":
+  version "9.3.13"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-numberformat/-/intl-numberformat-9.3.13.tgz#72cb8f96e1c2f5ea38e6cda78b48cf2a22841e70"
+  integrity sha512-xJ3itWsqligfqorbMLCROYr1P6mG/r5LzLpexgpZhlL6CgQWt9TUcoZHrvXdkubgl2uGB1f7cCoVT7XFrZalmA==
   dependencies:
-    "@formatjs/ecma402-abstract" "1.7.1"
-    tslib "^2.1.0"
+    "@formatjs/bigdecimal" "0.2.7"
+    "@formatjs/intl-localematcher" "0.8.12"
+
+"@formatjs/intl-supportedvaluesof@2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-supportedvaluesof/-/intl-supportedvaluesof-2.3.9.tgz#b74cad50db314deac33548b9157ec07dcdada237"
+  integrity sha512-RquyMkDVrJ5c0fYJSehVfzp7fWELH7vWY4nIvCoEchkDA32Mdm06ms6QvWdW+slECykCmoG4p8SLhwOKj2nCcg==
+  dependencies:
+    "@formatjs/fast-memoize" "3.1.7"
 
 "@gatsbyjs/parcel-namer-relative-to-cwd@^2.12.0":
   version "2.12.0"
